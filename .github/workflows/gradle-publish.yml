@@ -34,7 +34,7 @@ jobs:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload JAR file
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4.6.0
       with:
         name: gradle-build
         path: build/libs/*.jar
