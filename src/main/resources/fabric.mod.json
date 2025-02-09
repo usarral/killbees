@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "killbees",
+  "version": "${version}",
+  "name": "killbees",
+  "description": "",
+  "authors": ["usarral"],
+  "contact": {"homepage": "https://usarral.com"},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/killbees/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.usarral.killbees.client.KillbeesClient"
+    ],
+    "main": [
+      "com.usarral.killbees.Killbees"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
